@@ -1,4 +1,4 @@
-import AnimatedSection from "@/components/AnimatedSection";
+
 import ContactForm from "@/components/contact";
 import Features from "@/components/features";
 import Footer from "@/components/footer";
@@ -13,10 +13,10 @@ export default function Home() {
    <>
    <Header />
    <Hero/>
-   <AnimatedSection><Features/></AnimatedSection>
-   <AnimatedSection><NeuralCapabilities/></AnimatedSection>
-   <AnimatedSection><Pricing/></AnimatedSection>
-   <AnimatedSection> <ContactForm/></AnimatedSection>
+   <Features/>
+   <NeuralCapabilities/>
+   <Pricing/>
+<ContactForm/>
    <Footer/>
    </>
   );

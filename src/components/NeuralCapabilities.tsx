@@ -3,27 +3,26 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { BrainCircuit, Zap, BarChart3, ShieldCheck } from "lucide-react";
+import AnimatedSection from "./AnimatedSection";
 
 const NeuralCapabilities = () => {
   return (
-    <>
-      <div>
-        <div className="py-20">
-          <h1
-            className="text-2xl md:text-7xl font-extrabold text-center px-9 relative 
-      bg-gradient-to-r from-white via-purple-400 to-purple-600 
-      text-transparent bg-clip-text drop-shadow-[0_0_10px_rgba(192,132,252,0.6)]
-      opacity-0 animate-fadeIn"
-          >
-            Neural Capabilities
-          </h1>
-          <p className="text-center p-2 text-white">
-            Fueled by cutting-edge artificial intelligence.
-          </p>
-        </div>
+    <div className="py-20">
+      <h1
+        className="text-2xl md:text-7xl font-extrabold text-center px-9 relative 
+        bg-gradient-to-r from-white via-purple-400 to-purple-600 
+        text-transparent bg-clip-text drop-shadow-[0_0_10px_rgba(192,132,252,0.6)]
+        opacity-0 animate-fadeIn"
+      >
+        Neural Capabilities
+      </h1>
+      <p className="text-center p-2 text-white">
+        Fueled by cutting-edge artificial intelligence.
+      </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 py-9 gap-6 text-white">
-       
+      <div className="grid grid-cols-1 md:grid-cols-2 py-9 gap-6 text-white">
+        
+        <AnimatedSection>
           <motion.div
             whileHover={{
               scale: 1.00,
@@ -40,8 +39,10 @@ const NeuralCapabilities = () => {
               analyze, predict, and respond instantly.
             </p>
           </motion.div>
+        </AnimatedSection>
 
-     
+       
+        <AnimatedSection>
           <motion.div
             whileHover={{
               scale: 1.00,
@@ -58,8 +59,10 @@ const NeuralCapabilities = () => {
               interactions, improving accuracy and efficiency over time.
             </p>
           </motion.div>
+        </AnimatedSection>
 
-          {/* Adaptive Learning */}
+       
+        <AnimatedSection>
           <motion.div
             whileHover={{
               scale: 1.00,
@@ -76,8 +79,10 @@ const NeuralCapabilities = () => {
               interactions, improving accuracy and efficiency over time.
             </p>
           </motion.div>
+        </AnimatedSection>
 
-         
+       
+        <AnimatedSection>
           <motion.div
             whileHover={{
               scale: 1.00,
@@ -94,9 +99,9 @@ const NeuralCapabilities = () => {
               anomalies, and prevent cyber threats in real-time.
             </p>
           </motion.div>
-        </div>
+        </AnimatedSection>
       </div>
-    </>
+    </div>
   );
 };
 
