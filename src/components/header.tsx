@@ -7,7 +7,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-gray-900 text-white shadow-md">
+    <header className=" text-white shadow-md">
       <div className="container mx-auto flex justify-between items-center md:px-10 py-5">
     
         <div className="flex items-center">
@@ -30,7 +30,7 @@ const Header = () => {
 
      
       {isOpen && (
-        <div className="md:hidden bg-gray-800 text-center py-5 space-y-4">
+        <div className="md:hidden  text-center py-5 space-y-4">
           <Link href="/" className="block hover:text-gray-400">Home</Link>
           <Link href="/features" className="block hover:text-gray-400">Features</Link>
           <Link href="/pricing" className="block hover:text-gray-400">Pricing</Link>

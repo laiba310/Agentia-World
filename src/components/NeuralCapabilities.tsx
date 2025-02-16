@@ -30,7 +30,7 @@ const NeuralCapabilities = () => {
               boxShadow: "0px 0px 8px #a855f7",
             }}
             transition={{ type: "spring", stiffness: 150 }}
-            className="p-6 border border-purple-800 rounded-lg bg-gray-900"
+            className="p-6 border border-purple-800 rounded-lg "
           >
             <BrainCircuit className="text-purple-400 w-8 h-8 mb-2" />
             <h3 className="text-xl font-semibold">Advanced AI Algorithms</h3>
@@ -50,7 +50,7 @@ const NeuralCapabilities = () => {
               boxShadow: "0px 0px 8px #a855f7",
             }}
             transition={{ type: "spring", stiffness: 150 }}
-            className="p-6 border border-purple-800 rounded-lg bg-gray-900"
+            className="p-6 border border-purple-800 rounded-lg "
           >
             <Zap className="text-purple-400 w-8 h-8 mb-2" />
             <h3 className="text-xl font-semibold">Real-Time Processing</h3>
@@ -70,7 +70,7 @@ const NeuralCapabilities = () => {
               boxShadow: "0px 0px 8px #a855f7",
             }}
             transition={{ type: "spring", stiffness: 150 }}
-            className="p-6 border border-purple-800 rounded-lg bg-gray-900"
+            className="p-6 border border-purple-800 rounded-lg "
           >
             <BarChart3 className="text-purple-400 w-8 h-8 mb-2" />
             <h3 className="text-xl font-semibold">Adaptive Learning</h3>
@@ -90,7 +90,7 @@ const NeuralCapabilities = () => {
               boxShadow: "0px 0px 8px #a855f7",
             }}
             transition={{ type: "spring", stiffness: 150 }}
-            className="p-6 border border-purple-800 rounded-lg bg-gray-900"
+            className="p-6 border border-purple-800 rounded-lg"
           >
             <ShieldCheck className="text-purple-400 w-8 h-8 mb-2" />
             <h3 className="text-xl font-semibold">Enhanced Security</h3>

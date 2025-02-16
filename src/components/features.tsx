@@ -16,7 +16,7 @@ const Features = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 py-6 text-white">
           <AnimatedSection>
-            <div className="p-6 border border-purple-800 rounded-lg bg-gray-900 transition duration-300 
+            <div className="p-6 border border-purple-800 rounded-lg  transition duration-300 
               hover:border-purple-600 hover:scale-105 hover:shadow-lg hover:shadow-purple-600/50">
               <Wrench className="text-purple-400 w-8 h-8 mb-2" />
               <h3 className="text-xl font-semibold">Process Optimization</h3>
@@ -25,7 +25,7 @@ const Features = () => {
           </AnimatedSection>
 
           <AnimatedSection>
-            <div className="p-6 border border-purple-800 rounded-lg bg-gray-900 transition duration-300 
+            <div className="p-6 border border-purple-800 rounded-lg  transition duration-300 
               hover:border-purple-600 hover:scale-105 hover:shadow-lg hover:shadow-purple-600/50">
               <Bot className="text-purple-400 w-8 h-8 mb-2" />
               <h3 className="text-xl font-semibold">AI Assistance 24/7</h3>
@@ -34,7 +34,7 @@ const Features = () => {
           </AnimatedSection>
 
           <AnimatedSection>
-            <div className="p-6 border border-purple-800 rounded-lg bg-gray-900 transition duration-300 
+            <div className="p-6 border border-purple-800 rounded-lg  transition duration-300 
               hover:border-purple-600 hover:scale-105 hover:shadow-lg hover:shadow-purple-600/50">
               <Coins className="text-purple-400 w-8 h-8 mb-2" />
               <h3 className="text-xl font-semibold">Operational Efficiency</h3>
@@ -43,7 +43,7 @@ const Features = () => {
           </AnimatedSection>
 
           <AnimatedSection>
-            <div className="p-6 border border-purple-800 rounded-lg bg-gray-900 transition duration-300 
+            <div className="p-6 border border-purple-800 rounded-lg transition duration-300 
               hover:border-purple-600 hover:scale-105 hover:shadow-lg hover:shadow-purple-600/50">
               <BarChart className="text-purple-400 w-8 h-8 mb-2" />
               <h3 className="text-xl font-semibold">Smarter Insights</h3>
